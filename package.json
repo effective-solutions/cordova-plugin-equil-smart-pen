@@ -1,0 +1,25 @@
+{
+  "name": "EquilSmartPen",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova.plugin.equil.smart.pen",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanpramuditha/cordova.plugin.equil.smart.pen.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "shan pramuditha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanpramuditha/cordova.plugin.equil.smart.pen/issues"
+  },
+  "homepage": "https://github.com/shanpramuditha/cordova.plugin.equil.smart.pen#readme"
+}
