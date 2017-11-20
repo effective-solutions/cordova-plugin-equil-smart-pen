@@ -140,7 +140,6 @@
     rawPt = Arg_ptRaw;
     convPt = Arg_ptConv;
     [self sendMessageCallback:[NSString stringWithFormat:@"[%i,%f,%f,%f,%f]",Arg_PenStatus,cordX,cordY,convPt.x,convPt.y]];
-    NSLog(@"[%i,%f,%f,%f,%f]",Arg_PenStatus,cordX,cordY,convPt.x,convPt.y);
     cordX = convPt.x;
     cordY = convPt.y;
 }

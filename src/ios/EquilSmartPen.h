@@ -2,7 +2,7 @@
 #import "PNFPenLib.h"
 
 @class PNFPenController;
-@interface custom : CDVPlugin{
+@interface EquilSmartPen : CDVPlugin{
     PNFPenController *penController;
     NSThread* readThread;
     BOOL      readThreadPause;
