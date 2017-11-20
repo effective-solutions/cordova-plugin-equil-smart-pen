@@ -204,5 +204,14 @@
     [penSleepView show];
 }
 
+- (void) PenHandler:(id)sender{
+}
+
+
+- (void)PenHandlerEnv:(NSArray*)info{
+}
+
+
+
 
 @end
