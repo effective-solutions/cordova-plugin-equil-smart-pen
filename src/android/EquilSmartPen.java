@@ -58,6 +58,7 @@ public class EquilSmartPen extends CordovaPlugin {
         calScreenPoint[2] = new PointF(300.0f ,400.0f);
         calScreenPoint[3] = new PointF(0.0f ,400.0f);
 
+        MainDefine.penController.setCalibrationData(calScreenPoint, 0, calResultPoint);
         MainDefine.penController.startPen();
 
         MainDefine.penController.SetRetObj(penHandler);
