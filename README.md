@@ -1,6 +1,6 @@
 # Equil Smart Pen Cordova Plugin  
 
-> Extremely easy pug and play plugin for equil smart pen. SDK's for android and iosa are already available and the intension of this project was to available functionalities of the equil smart pen for cross-platform app developers.
+> Extremely easy plug and play plugin for equil smart pen. SDK's for android and iosa are already available and the intension of this project was to available functionalities of the equil smart pen for cross-platform app developers.
 
 ## Usage
 
