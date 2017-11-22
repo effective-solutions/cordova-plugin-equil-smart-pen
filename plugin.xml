@@ -26,6 +26,11 @@
         <source-file src="src/android/PNFPenLib.jar" target-dir="libs"/>
     </platform>
     <platform name="ios">
+        <config-file target="*-Info.plist" parent="UISupportedExternalAccessoryProtocols">
+            <array>
+                <string>com.penandfree.uartpen</string>
+            </array>
+        </config-file>
         <config-file parent="/*" target="config.xml">
             <feature name="EquilSmartPen">
                 <param name="ios-package" value="EquilSmartPen"/>
@@ -33,7 +38,8 @@
         </config-file>
         <header-file src="src/ios/EquilSmartPen.h" target-dir="src/cordova/plugin/equil/smart/pen/EquilSmartPen"/>
         <source-file src="src/ios/EquilSmartPen.m" target-dir="src/cordova/plugin/equil/smart/pen/EquilSmartPen"/>
-        <source-file src="src/ios/PNFDefine.h" target-dir="src/cordova/plugin/equil/smart/pen/EquilSmartPen"/>
+        <
+                source-file src="src/ios/PNFDefine.h" target-dir="src/cordova/plugin/equil/smart/pen/EquilSmartPen"/>
         <source-file src="src/ios/PNFPenLib.h" target-dir="src/cordova/plugin/equil/smart/pen/EquilSmartPen"/>
         <source-file src="src/ios/libPNFPenLib.a" framework="true"/>
 
